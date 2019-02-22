@@ -6,8 +6,40 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hola mundo!</h1>
+      <h1 id="title" class="title"> Pinky's Cipher </h1>
+      <img src="imágenes/amigas.jpg" id="photo" class="image"> 
+      <img src="imágenes/amigas1.jpg" id="photo" class="image1"> 
+      <img src="imágenes/amigas2.jpg" id="photo" class="image1">
+      <img src="imágenes/amigas3.jpg" id="photo" class="image1"> 
+      <img src="imágenes/amigas4.jpg" id="photo" class="image2"> 
+      <img src="imágenes/amigas5.jpg" id="photo" class="image3"> 
+      <img src="imágenes/amigas6.jpg" id="photo" class="image1">
+      <div id="root" class="page1">
+      <p class= "tema"> Elige el Tema: </p>
+      <button class="hb" onclick="hb()"> Cumpleaños!!! </button>
+      <button class="travels" onclick="travels()"> Viajes!!! </button> <br> <br>
+      <button class="love" onclick="love()"> Relaciones amorosas!!! </button> <br> <br>
+      <button class="secrets" onclick="secrets()"> Secretos!!! </button> 
+      <button class="others" onclick="others()"> Otros!!! </button> <br> <br>
+      <p id= "prepare" class="tema"> Prepárate para escribir... </p>
+    </div>
+    <div id="pagina2" class="page2"> 
+      <h2 class="pregunta"> ¿Cón cuánto de desplazamiento deseas utilizar Pinky's Cipher? </h2> <br>
+      <input id="desplazamiento" value=" " type="text" class="desplazamiento"> <br> <br> <br>
+      <button class="continue" onclick="continuar()"> Continuar </button> 
+    </div>
+    <div id="pagina3" class="page3">
+        <h2 class="pregunta"> Cuéntame... Te leo!!! </h2>
+        <input id="texto1" value=" " type="text" class="text1"> <br> <br>
+        <button class="cifrar" onclick="cifrar()"> Cifrar </button> 
+        <button class="descifrar" onclick="descifrar()"> Descifrar </button> 
+        <button class="borrar" onclick="borrar()"> Borrar </button> <br> <br>
+        <button class="regresar" onclick="regresar()"> Inicio </button>
+        <input id="texto2" value=" " type="text" class="text2">
+        <button class="close" onclick="cerrar()"> Salir </button>
+    </div>
+    <div id="pagina4" class="page4">
+
     </div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>

@@ -1,1 +1,144 @@
 /* Acá va tu código */
+body { background: url(https://previews.123rf.com/images/kseniavasil/kseniavasil1604/kseniavasil160400021/55551046-patr%C3%B3n-floral-sin-fisuras-geom%C3%A9trico-ilustraci%C3%B3n-vectorial-el-delicado-color-rosa-pastel-fondo-rosa-claro-.jpg) repeat; } 
+.title{
+font-size: 50px; 
+text-align:center;
+font-style: italic;
+color:purple;
+}
+.image{
+    width: 10%;
+    height: 20%;
+    margin-left: 4%;
+    display: inline-block;
+}
+.image1{
+    width: 16%;
+    height: 16%;
+    margin: auto;
+    display: inline-block;
+}
+.image2{
+    width: 9%;
+    height: 9%;
+    margin: auto;
+    display: inline-block;
+}
+.image3{
+    width: 7.5%;
+    height: 12%;
+    margin: auto;
+    display: inline-block;
+}
+.tema{
+font-size: 30px; 
+text-align:center;
+font-style: unset;
+font-weight: 200;
+color: coral;
+}
+.hb{
+    font-size: 20px; 
+    color:black;
+    background-color:rgb(212, 103, 14) ;
+    border-color:rgb(212, 103, 14);
+    margin-left: 25%;
+    font-style: italic;
+}
+.travels{
+    font-size: 20px; 
+    color:black;
+    background-color: greenyellow;
+    border-color: greenyellow;
+    margin-left: 35%;
+    font-style: italic;
+}
+.secrets{
+    font-size: 20px; 
+    color:black;
+    background-color: aquamarine;
+    border-color: aquamarine;
+    margin-left: 25%;
+    font-style: italic;
+}
+.love{
+    font-size: 20px; 
+    color:black;
+    background-color: palevioletred;
+    border-color: palevioletred;
+    display: inline-block;
+    margin-left: 45%;
+    font-style: italic;
+}
+.others{
+    font-size: 20px; 
+    color:black;
+    background-color: crimson;
+    border-color: crimson;
+    margin-left: 37%;
+    font-style: italic;
+}
+.pregunta{
+text-align:center;
+font-style: inherit;
+color: maroon;
+}
+.desplazamiento{
+    background-color: hotpink;
+    font-size: 20px;
+    border-color: purple;
+    margin-left: 41%;
+}
+.continue{
+    font-size: 15px; 
+    font-style: normal;
+    margin-left: 630px;
+    border-color: rgb(230, 9, 193);
+}
+.text1{
+    background-color: rgb(194, 158, 158);
+    font-size: 70px;
+    border-color: purple;
+    margin-left: 20%;
+}
+.text2{
+    background-color: rgb(194, 158, 158);
+    font-size: 70px;
+    border-color: purple;
+    margin-left: 8%;
+}
+.cifrar{
+    font-size: 15px; 
+    font-style: normal;
+    margin-left: 500px;
+    border-color: skyblue;
+    background-color: skyblue;
+}
+.descifrar{
+    font-size: 15px; 
+    font-style: normal;
+    margin-left: 100px;
+    border-color: slateblue;
+    background-color: slateblue;
+}
+.borrar{
+    font-size: 15px; 
+    font-style: normal;
+    margin-left: 100px;
+    border-color: brown;
+    background-color: brown;
+}
+.close{
+    font-size: 15px; 
+    font-style: normal;
+    margin-left: 100px;
+    border-color: purple;
+    background-color: fuchsia;
+}
+.regresar{
+    font-size: 15px; 
+    font-style: normal;
+    margin-left: 110px;
+    border-color: purple;
+    background-color: fuchsia;
+}
