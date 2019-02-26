@@ -1,5 +1,5 @@
 /* Acá va tu código */
-body { background: url(https://previews.123rf.com/images/kseniavasil/kseniavasil1604/kseniavasil160400021/55551046-patr%C3%B3n-floral-sin-fisuras-geom%C3%A9trico-ilustraci%C3%B3n-vectorial-el-delicado-color-rosa-pastel-fondo-rosa-claro-.jpg) repeat; } 
+.page1 { background: url(https://previews.123rf.com/images/kseniavasil/kseniavasil1604/kseniavasil160400021/55551046-patr%C3%B3n-floral-sin-fisuras-geom%C3%A9trico-ilustraci%C3%B3n-vectorial-el-delicado-color-rosa-pastel-fondo-rosa-claro-.jpg) repeat; } 
 .title{
 font-size: 50px; 
 text-align:center;
@@ -97,15 +97,15 @@ color: maroon;
 }
 .text1{
     background-color: rgb(194, 158, 158);
-    font-size: 70px;
     border-color: purple;
     margin-left: 20%;
+    color: purple;
 }
 .text2{
     background-color: rgb(194, 158, 158);
-    font-size: 70px;
     border-color: purple;
     margin-left: 8%;
+    color: purple;
 }
 .cifrar{
     font-size: 15px; 
@@ -142,3 +142,7 @@ color: maroon;
     border-color: purple;
     background-color: fuchsia;
 }
+.page2 { background: url(https://melodiasweet.files.wordpress.com/2015/06/cumple.jpg) repeat; } 
+.page3 { background: url(https://melodiasweet.files.wordpress.com/2015/06/cumple.jpg) repeat; } 
+.page4 { background: url(https://locuraviajes.com/wp-content/uploads/2016/10/ganar-viajes-gratis.jpg) repeat; } 
+.page5 { background: url(https://locuraviajes.com/wp-content/uploads/2016/10/ganar-viajes-gratis.jpg) repeat; } 
