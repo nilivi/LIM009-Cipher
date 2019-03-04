@@ -1,5 +1,8 @@
-# Pinky's Cipher
 
+
+# Pinky's Cipher
+ Codeado por:
+ ![foto](https://user-images.githubusercontent.com/47750982/53742308-57139c00-3e66-11e9-90e6-36b7acea2113.jpg)
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio César lo usaba para enviar órdenes secretas a sus generales en los campos de batalla.
 
 ![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
