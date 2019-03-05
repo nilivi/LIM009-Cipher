@@ -52,10 +52,6 @@ document.getElementById("regresar").addEventListener("click", () => {
     document.getElementById("pagina11").style.display = "none";
 })
 
-document.getElementById("cerrar").addEventListener("click", () => {
-    window.close();
-})
-
 let palabra; //texto a descifrar
 let desplazamiento; //offset
 let nuevaPalabra1;
@@ -117,10 +113,6 @@ document.getElementById("regresarTravels").addEventListener("click", () => {
     document.getElementById("pagina9").style.display = "none";
     document.getElementById("pagina10").style.display = "none";
     document.getElementById("pagina11").style.display = "none";
-})
-
-document.getElementById("cerrarTravels").addEventListener("click", () => {
-    window.close();
 })
 
 let palabraTravels; //texto a descifrar
@@ -186,10 +178,6 @@ document.getElementById("regresarLove").addEventListener("click", () => {
     document.getElementById("pagina11").style.display = "none";
 })
 
-document.getElementById("cerrarLove").addEventListener("click", () => {
-    window.close();
-})
-
 let palabraLove; //texto a descifrar
 let desplazamientoLove; //offset
 let nuevaPalabraLove;
@@ -253,10 +241,6 @@ document.getElementById("regresarSecreto").addEventListener("click", () => {
     document.getElementById("pagina11").style.display = "none";
 })
 
-document.getElementById("cerrarSecreto").addEventListener("click", () => {
-    window.close();
-})
-
 let palabraSecreto; //texto a descifrar
 let desplazamientoSecreto; //offset
 let nuevaPalabraSecreto;
@@ -318,10 +302,6 @@ document.getElementById("regresarOtro").addEventListener("click", () => {
     document.getElementById("pagina9").style.display = "none";
     document.getElementById("pagina10").style.display = "none";
     document.getElementById("pagina11").style.display = "none";
-})
-
-document.getElementById("cerrarOtro").addEventListener("click", () => {
-    window.close();
 })
 
 let palabraOtro; //texto a descifrar

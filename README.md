@@ -45,27 +45,23 @@ En el siguiente diagrama de flujo se explicará detalladamente los pasos que se 
 
   ![descifrando](https://user-images.githubusercontent.com/47750982/53786665-60464c80-3eea-11e9-83f8-28e648b847cf.jpg)
 
-  7.- Al hacer click en el botón **Salir**, se cierra la ventana de la plataforma web **Pinkys Cipher**.
-
-  ![saliendo del cipher](https://user-images.githubusercontent.com/47750982/53786877-03976180-3eeb-11e9-92e3-f4f8f70e61e0.jpg)
-
-  8.- Al hacer click en el botón **Inicio**, regresarás a la pantalla principal, dónde podrás elegir nuevamente el tema que deseas hablar con tu amiga.
+  7.- Al hacer click en el botón **Inicio**, regresarás a la pantalla principal, dónde podrás elegir nuevamente el tema que deseas hablar con tu amiga.
 
   ![regresando](https://user-images.githubusercontent.com/47750982/53786983-553fec00-3eeb-11e9-8504-fd554fbe959d.jpg)
 
-  9.- En la siguiente imagen se puede observar la pantalla de la opción **Viajes**.
+  8.- En la siguiente imagen se puede observar la pantalla de la opción **Viajes**.
 
   ![viajes](https://user-images.githubusercontent.com/47750982/53787084-a94ad080-3eeb-11e9-924f-32b91c252f1c.jpg)
 
-  10.- En la siguiente imagen se puede observar la pantalla de la opción **Relaciones Amorosas**.
+  9.- En la siguiente imagen se puede observar la pantalla de la opción **Relaciones Amorosas**.
 
   ![amor](https://user-images.githubusercontent.com/47750982/53787186-f8910100-3eeb-11e9-88f8-0879e6d75a39.jpg)
 
-  11.- En la siguiente imagen se puede observar la pantalla de la opción **Secretos**.
+  10.- En la siguiente imagen se puede observar la pantalla de la opción **Secretos**.
 
   ![secreto](https://user-images.githubusercontent.com/47750982/53787242-31c97100-3eec-11e9-85a5-f446c92a7b3e.jpg)
 
-  12.- En la siguiente imagen se puede observar la pantalla de la opción **Otros**.
+  11.- En la siguiente imagen se puede observar la pantalla de la opción **Otros**.
 
   ![otro](https://user-images.githubusercontent.com/47750982/53787295-60474c00-3eec-11e9-9a34-09f0c3c2e10a.jpg)
 
