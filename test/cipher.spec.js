@@ -21,6 +21,12 @@ describe('cipher', () => {
     it('debería retornar " " para " " con offset 33', () => {
       assert.equal(cipher.encode(" ", 33), " ");
     });
+    it('debería retornar "5678901234" para "0123456789" con offset 5', ()=> {
+      assert.equal(cipher.encode("0123456789", 5), "5678901234");
+    });
+    it('debería retornar "&()*-./!#$%" para "!#$%()*+-./" con offset 5',() =>{
+      assert.equal(cipher.encode("!#$%()*+-./", 5), "&()*-./!#$%");
+    });
   });
 
   describe('cipher.decode', () => {
@@ -40,7 +46,7 @@ describe('cipher', () => {
     it('debería retornar " " para " " con offset 33', () => {
       assert.equal(cipher.decode(" ", 33), " ");
     });
-
+    
   });
 
 });

@@ -344,3 +344,58 @@ document.getElementById("descifrarOtro").addEventListener("click", () => {
     nuevaPalabraDescifrarOtro1 = cipher.decode(palabraDescifrarOtro, desplazamientoOtro);
     document.getElementById("textoOtro2").innerHTML = nuevaPalabraDescifrarOtro1;
 });
+
+document.getElementById("borrar").addEventListener("click", () => {
+    document.getElementById("texto1").value = "";
+    document.getElementById("texto2").innerHTML = "";
+});
+
+document.getElementById("borrarTravels").addEventListener("click", () => {
+    document.getElementById("textoTravels1").value = "";
+    document.getElementById("textoTravels2").innerHTML = "";
+});
+
+document.getElementById("borrarLove").addEventListener("click", () => {
+    document.getElementById("textoLove1").value = "";
+    document.getElementById("textoLove2").innerHTML = "";
+});
+
+document.getElementById("borrarSecreto").addEventListener("click", () => {
+    document.getElementById("textoSecreto1").value = "";
+    document.getElementById("textoSecreto2").innerHTML = "";
+});
+
+document.getElementById("borrarOtro").addEventListener("click", () => {
+    document.getElementById("textoOtro1").value = "";
+    document.getElementById("textoOtro2").innerHTML = " ";
+});
+
+document.getElementById("regresar").addEventListener("click", () => {
+    document.getElementById("desplazamiento").value = "";
+    document.getElementById("texto1").value = "";
+    document.getElementById("texto2").innerHTML = "";
+});
+
+document.getElementById("regresarTravels").addEventListener("click", () => {
+    document.getElementById("desplazamientoTravels").value = "";
+    document.getElementById("textoTravels1").value = "";
+    document.getElementById("textoTravels2").innerHTML = "";
+});
+
+document.getElementById("regresarLove").addEventListener("click", () => {
+    document.getElementById("desplazamientoLove").value = "";
+    document.getElementById("textoLove1").value = "";
+    document.getElementById("textoLove2").innerHTML = "";
+});
+
+document.getElementById("regresarSecreto").addEventListener("click", () => {
+    document.getElementById("desplazamientoSecreto").value = "";
+    document.getElementById("textoSecreto1").value = "";
+    document.getElementById("textoSecreto2").innerHTML = "";
+});
+
+document.getElementById("regresarOtro").addEventListener("click", () => {
+    document.getElementById("desplazamientoOtro").value = "";
+    document.getElementById("textoOtro1").value = "";
+    document.getElementById("textoOtro2").innerHTML = "";
+});

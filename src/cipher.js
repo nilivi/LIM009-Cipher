@@ -26,7 +26,7 @@ window.cipher = {
        let palabraCifrada = String.fromCharCode(nuevoAscii);
         nuevaPalabra += palabraCifrada
 
-      } else if (ascii >= 33 && ascii <= 47) {
+      } else {ascii >= 33 && ascii <= 47
        let nuevoAscii = ((ascii - 33 + desplazamiento) % 15 + 33);
        let palabraCifrada = String.fromCharCode(nuevoAscii);
         nuevaPalabra += palabraCifrada
@@ -52,7 +52,7 @@ window.cipher = {
         nuevaPalabraDescifrar += palabraDescifrada
       }
       //(97+x-1)%26+97=122
-      else if (asciiDescifrar >= 65 && asciiDescifrar <= 122) {
+      else  {asciiDescifrar >= 65 && asciiDescifrar <= 122 
         let nuevoAsciiDescifrar = ((asciiDescifrar + 111 - desplazamiento) % 26 + 97);
         let palabraDescifrada = String.fromCharCode(nuevoAsciiDescifrar);
         nuevaPalabraDescifrar += palabraDescifrada
